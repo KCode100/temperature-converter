@@ -1,0 +1,18 @@
+.my-input{
+    margin-top: -15px;
+}
+
+.dropdown{
+    margin-bottom: 70px;
+}
+
+.load-icon{
+    display: none;
+}
+
+.error{
+    padding: 15px;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}

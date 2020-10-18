@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/4e31ef7c0f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Celsius/Farenheit Converter</title>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Converter</h2>
+        <div class="card-panel">
+            <!-- <div class="row">
+                <div class="input-field col s12">
+                    <select>
+                        <option value="" disabled selected>Choose your option</option>
+                        <option value="temperature">temperature</option>
+                        <option value="weight">weight</option>
+                        <option value="length">length</option>
+                    </select>
+                    <label>Select</label>
+                </div>
+            </div> -->
+            <div class="dropdown row">
+                <select class="col s12 l4 browser-default">
+                    <option disabled selected>Choose your option</option>
+                    <option value="TEMPERATURE">TEMPERATURE</option>
+                    <option value="WEIGHT">WEIGHT</option>
+                    <option value="LENGTH">LENGTH</option>
+                </select>
+            </div>
+            <div class="row">
+                <div class = "my-input col s4 input-field">
+                    <input type="number" id="celsius">
+                    <label for="celsius">Celsius</label>
+                </div>
+                <div class="col s4 center-align">
+                    <div class="result calculate-btn row">
+                        <button class="hoverable ok btn teal lighten-2 waves-effect waves-light"><i class="tick fas fa-check fa-2x"></i>
+                        <i class="load-icon fas fa-spinner fa-spin fa-2x"></i></button>
+                    </div>
+                    <!-- <div class="row">
+                        <button class="col s12 m6 offset-m3 btn btn-small"><i class="fas fa-sync fa-2x right"></i>Reverse</button>
+                    </div> -->
+                </div>
+                <div class = "my-input col s4 input-field">
+                    <input type="number" id="fahrenheit">
+                    <label for="fahrenheit">Fahrenheit</label>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
